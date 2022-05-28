@@ -8,7 +8,7 @@ ssh user@host
 sudo apt-get update && sudo apt-get install -y git wget awk tar shasum
 
 # clone project
-git clone git@github.com:ezkizru/server.git
+git clone git@github.com:HeroWsOne/server.git
 cd server
 
 # load bash aliases
