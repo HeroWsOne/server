@@ -1,11 +1,11 @@
 #!/bin/bash
 
-NGINX_PROXY_EMAIL_ADDRESS=ezkizru@yandex.ru
+NGINX_PROXY_EMAIL_ADDRESS=user@host
 NGINX_PROXY_BASE_PATH=~/server/proxy/
 NGINX_PROXY_AUTOMATION_PATH=compose
 NGINX_PROXY_DATA_FILES=data
 
-NGINX_PROXY_NET_IP=95.165.143.213
+NGINX_PROXY_NET_IP=
 
 # Create nginx-proxy base path if it does not exists
 [[ ! -d "$NGINX_PROXY_BASE_PATH" ]] && mkdir -p $NGINX_PROXY_BASE_PATH && echo "The nginx-proxy base path '$NGINX_PROXY_BASE_PATH' was created sucessfuly!"

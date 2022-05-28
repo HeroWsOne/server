@@ -1,29 +1,27 @@
-# EZKIZ - backend
-
-## server
+# SERVER
 
 ```bash
 # login server
-ssh ezkiz@ezkiz.ru
+ssh user@host
 
 # install apps
 sudo apt-get update && sudo apt-get install -y git wget awk tar shasum
 
 # clone project
-git clone git@github.com:ezkizru/ezkiz.git
-cd ezkiz
+git clone git@github.com:ezkizru/server.git
+cd server
 
 # load bash aliases
-sudo ./server/aliases.sh
+sudo ./aliases.sh
 # relogin
 
 # install docker
-sudo ./server/install-docker.sh
+sudo ./install-docker.sh
 # relogin
 ```
 
 ```bash
 # remove docker all
 # !!! WARNING !!!
-sudo ./server/docker-clean.sh
+sudo ./docker-clean.sh
 ```
